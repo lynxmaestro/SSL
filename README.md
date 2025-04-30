@@ -21,7 +21,7 @@ TLS communication sessions begin with a TLS handshake. A TLS handshake uses some
 
 In public key cryptography, two keys are used: a public key, which the server makes available publicly, and a private key, which is kept secret and only used on the server side. Data encrypted with the public key can only be decrypted with the private key.
 
-During the TLS handshake, the client and server use the public and private keys to exchange randomly generated data, and this random data is used to create new keys for encryption, called the session keys.
+**During the TLS handshake, the client and server use the public and private keys to exchange randomly generated data, and this random data is used to create new keys for encryption, called the session keys.**
 
 ### Symmetric encryption with session keys
 
